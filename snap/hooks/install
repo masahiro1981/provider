@@ -1,0 +1,10 @@
+#! /bin/bash
+
+#copy over data to be accessed from binary
+cp -a $SNAP/data $SNAP_DATA
+# copy over binary files...
+cp -a $SNAP/bin  $SNAP_DATA
+
+
+
+
